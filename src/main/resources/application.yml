@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5434/postgres
+    username: postgres
+    password: pass
+    driver-class-name: org.postgresql.Driver
+bot:
+  token: 6740184231:AAFF8kX-EtZuN1ENTPADF2mRD_yMKeR2-RU
+  name: ntffcn_bot
+  url: https://ddfd-109-185-162-136.ngrok-free.app
